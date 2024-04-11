@@ -18,7 +18,7 @@ public class Customer {
     /*Assign role */
     private String name;    //Name of the Customer
     private String role;    //role of the Customer
-    @Id
+    @Id                     //primary key of the current entity
     
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id; // this will act as ID
